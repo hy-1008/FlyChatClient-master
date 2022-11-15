@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane id="friendPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="385.0" stylesheets="@CSS/FriendPage.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button id="head" mnemonicParsing="false" prefHeight="385.0" prefWidth="385.0" />
+      <Pane id="Mask" prefHeight="220.0" prefWidth="385.0" />
+      <Pane id="info" layoutY="218.0" opacity="0.9" prefHeight="430.0" prefWidth="385.0">
+         <children>
+            <Button id="submit" layoutX="314.0" layoutY="32.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="56.0" style="-fx-background-color: #319bff;" text="修改" textFill="WHITE">
+               <font>
+                  <Font name="Forte" size="15.0" />
+               </font></Button>
+            <Label layoutX="20.0" layoutY="31.0" prefHeight="28.0" prefWidth="56.0" text="备注:" textOverrun="CLIP" wrapText="true">
+               <font>
+                  <Font name="Forte" size="17.0" />
+               </font>
+            </Label>
+            <TextField id="remark" layoutX="76.0" layoutY="29.0" promptText="给好友添加备注吧...">
+               <font>
+                  <Font name="Sitka Text Italic" size="15.0" />
+               </font>
+            </TextField>
+            <TextArea id="label" editable="false" layoutX="24.0" layoutY="86.0" prefHeight="69.0" prefWidth="338.0" promptText="暂无描述" style="-fx-border-color: #1976c7; -fx-border-radius: 5px;" wrapText="true">
+               <font>
+                  <Font name="Freestyle Script" size="16.0" />
+               </font>
+               <effect>
+                  <InnerShadow color="TRANSPARENT" height="0.0" radius="0.0" width="0.0" />
+               </effect>
+            </TextArea>
+            <Pane layoutX="24.0" layoutY="173.0" prefHeight="243.0" prefWidth="338.0" style="-fx-border-color: #319bff; -fx-border-radius: 5px;">
+               <children>
+                  <Label id="account" alignment="CENTER" layoutX="95.0" layoutY="14.0" prefHeight="24.0" prefWidth="149.0" text="好友昵称" textAlignment="CENTER" textFill="#319bff">
+                     <font>
+                        <Font name="Microsoft YaHei" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField id="name" editable="false" layoutX="6.0" layoutY="48.0" prefHeight="30.0" prefWidth="268.0" promptText="暂无">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField id="address" editable="false" layoutX="6.0" layoutY="90.0" prefHeight="30.0" prefWidth="268.0" promptText="暂无">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField id="sex" editable="false" layoutX="6.0" layoutY="129.0" prefHeight="30.0" prefWidth="268.0" promptText="暂无">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField id="age" editable="false" layoutX="6.0" layoutY="168.0" prefHeight="30.0" prefWidth="268.0" promptText="暂无">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField id="phone" editable="false" layoutX="6.0" layoutY="208.0" prefHeight="30.0" prefWidth="268.0" promptText="暂无">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Button id="minimiser1" layoutX="313.0" layoutY="10.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+      <Button id="quit1" layoutX="344.0" layoutY="10.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+   </children>
+</Pane>
